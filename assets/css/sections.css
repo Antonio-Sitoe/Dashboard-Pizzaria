@@ -1,0 +1,53 @@
+section.ative {
+ display: none;
+}
+
+
+.form {
+ padding: 1rem 3rem;
+ text-align: center;
+ margin: 6rem 0;
+}
+
+.formulario {
+
+ display: grid;
+ grid-template-rows: 1fr 1fr;
+ grid-gap: 20px;
+ width: 100%;
+ max-width: 300px;
+ margin: 1rem auto;
+}
+
+
+.formulario input {
+ padding: 1rem 2rem;
+ border: none;
+ outline: none;
+}
+
+.download {
+ grid-gap: 2rem;
+ width: 100%;
+ max-width: 600px;
+ padding: 3rem;
+ margin: 6rem auto;
+ display: grid;
+}
+
+
+/* spinner */
+
+
+.spinner {
+ width: 10rem;
+ text-align: center;
+ position: fixed;
+ top: 20%;
+ left: 35%;
+ display: none;
+}
+
+.spinner.ative {
+ display: flex;
+}

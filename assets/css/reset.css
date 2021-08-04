@@ -1,0 +1,82 @@
+html,
+body,
+section,
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+p,
+nav,
+ul,
+li,
+a,
+strong {
+    padding: 0;
+    margin: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, monospace;
+    color: #252525;
+    background: #fcfcfc;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+    font-weight: bold;
+    font-family: Arial, Helvetica, monospace;
+}
+
+
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+button {
+    padding: 20px;
+    border: 3px solid;
+    background-color: #FB9400;
+    cursor: pointer;
+    color: #fcfcfc;
+    font-family: Arial, Helvetica, monospace;
+    font-weight: bold;
+    border-radius: 10rem;
+}
+
+button:hover {
+    background-color: #fcfcfc;
+    color: #FB9400;
+    border: 3px solid;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+
+p {
+    line-height: 1.5;
+
+}
+
+
+.grid-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
