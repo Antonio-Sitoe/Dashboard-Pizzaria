@@ -21,7 +21,7 @@
 
  - Imagem (by unsplash)
  - Icones (by figma - plugin iconMoon)
- - Designe (by Andika Wiraputra) (figma)
+ - Design (by Andika Wiraputra) (figma)
 
 # licenca
 MIT License
