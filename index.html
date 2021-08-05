@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Pizza Cossa</title>
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -25,66 +25,69 @@
       <section class="main-bg section ative">
         <nav class="menu">
           <h2>Today Menu &#128523;</h2>
-          <div class="inputsSearch">
-            <input type="text" placeholder="Search by food name">
-            <img src="assets/img/Search.svg" class="searchIcon" alt="">
-          </div>
+          
         </nav>
+        <div class="searchs">
 
-        <div class="image-banner">
-          <img src="assets/img/banner.png" alt="">
-        </div>
 
-        <div class="titlecat">
-          <h2>Menu Category</h2>
-          <div style="color: #FB9400;">View All<span class="view">›</span></div>
-        </div>
 
-        <section class="Categorias">
-          <ul>
-
-            <li>
-              <div class="card">
-                <img src="assets/img/Pizza.svg" alt="pizza">
-                <p>Pizzas</p>
-                <span class="cardArrow">›</span>
-              </div>
-            </li>
-            <li>
-              <div class="card">
-                <img src="assets/img/bolos.jpg" alt="pizza">
-                <p>Bolos</p>
-                <span class="cardArrow">›</span>
-              </div>
-            </li>
-            <li>
-              <div class="card">
-                <img src="assets/img/sobre.svg" alt="pizza">
-                <p>Sobremesas</p>
-                <span class="cardArrow">›</span>
-              </div>
-            </li>
-            <li>
-              <div class="card">
-                <img src="assets/img/wine.svg" alt="pizza">
-                <p>Bebidas</p>
-                <span class="cardArrow">›</span>
-              </div>
-            </li>
-          </ul>
-        </section>
-        <section class="produts">
-          <div class="titlecat">
-            <h2>Produtos</h2>
-            <div style="color: #FB9400;">View All<span class="view">›</span></div>
+          <div class="image-banner">
+            <img src="assets/img/banner.png" alt="">
           </div>
+
+          <div class="titlecat">
+            <h2>Menu Category</h2>
+          </div>
+
+          <section class="Categorias">
+            <ul>
+
+              <li>
+                <div class="card">
+                  <img src="assets/img/Pizza.svg" alt="pizza">
+                  <p>Pizzas</p>
+                  <span class="cardArrow pizzas">›</span>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <img src="assets/img/bolos.jpg" alt="pizza">
+                  <p>Bolos</p>
+                  <span class="cardArrow bolos">›</span>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <img src="assets/img/sobre.svg" alt="pizza">
+                  <p>Sobremesas</p>
+                  <span class="cardArrow sobremesa">›</span>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <img src="assets/img/wine.svg" alt="pizza">
+                  <p>Bebidas</p>
+                  <span class="cardArrow bebidas">›</span>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="titlecat all">
+          <h2>Produtos</h2>
+          <div style="color: #FB9400;"><span>View All</span><span class="view">›</span></div>
+        </div>
+
+
+        <section class="produts">
+
           <ul>
             <li>
-              <div class="bigCards">
+              <div class="bigCards" data-category="pizzas">
                 <div class="card-img">
                   <img src="assets/img/810577.png" alt="">
                 </div>
-                <h3>Mushrrom Pizza</h3>
+                <h3>Margarida</h3>
                 <div class="price">
                   <p>740 <span>MT</span></p>
                   <span class="mais">+</span>
@@ -92,11 +95,11 @@
               </div>
             </li>
             <li>
-              <div class="bigCards">
+              <div class="bigCards" data-category="pizzas">
                 <div class="card-img">
                   <img src="assets/img/810577.png" alt="">
                 </div>
-                <h3>Mushrrom Pizza</h3>
+                <h3>African Pizza</h3>
                 <div class="price">
                   <p>740 <span>MT</span></p>
                   <span class="mais">+</span>
@@ -105,11 +108,119 @@
             </li>
 
             <li>
-              <div class="bigCards">
+              <div class="bigCards" data-category="pizzas">
                 <div class="card-img">
                   <img src="assets/img/810577.png" alt="">
                 </div>
-                <h3>Mushrrom Pizza</h3>
+                <h3>Mexicana Pizza</h3>
+                <div class="price">
+                  <p>740 <span>MT</span></p>
+                  <span class="mais">+</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="bigCards" data-category="sobremesa">
+                <div class="card-img">
+                  <img src="assets/img/sobremesa.svg" alt="">
+                </div>
+                <h3>Chocolate </h3>
+                <div class="price">
+                  <p>740 <span>MT</span></p>
+                  <span class="mais">+</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="bigCards" data-category="sobremesa">
+                <div class="card-img">
+                  <img src="assets/img/sobremesa.svg" alt="">
+                </div>
+                <h3>Murango </h3>
+                <div class="price">
+                  <p>740 <span>MT</span></p>
+                  <span class="mais">+</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="bigCards" data-category="sobremesa">
+                <div class="card-img">
+                  <img src="assets/img/sobremesa.svg" alt="">
+                </div>
+                <h3>Laranja </h3>
+                <div class="price">
+                  <p>740 <span>MT</span></p>
+                  <span class="mais">+</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="bigCards" data-category="bolos">
+                <div class="card-img">
+                  <img src="assets/img/cakes.svg" alt="">
+                </div>
+                <h3>Bolo simples. </h3>
+                <div class="price">
+                  <p>740 <span>MT</span></p>
+                  <span class="mais">+</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="bigCards" data-category="bolos">
+                <div class="card-img">
+                  <img src="assets/img/cakes.svg" alt="">
+                </div>
+                <h3>Bolo simples. </h3>
+                <div class="price">
+                  <p>740 <span>MT</span></p>
+                  <span class="mais">+</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="bigCards" data-category="bolos">
+                <div class="card-img">
+                  <img src="assets/img/cakes.svg" alt="">
+                </div>
+                <h3>Bolo de fubá</h3>
+                <div class="price">
+                  <p>740 <span>MT</span></p>
+                  <span class="mais">+</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="bigCards" data-category="bebidas">
+                <div class="card-img">
+                  <img src="assets/img/bebidas.svg" alt="">
+                </div>
+                <h3>Água Tônica. </h3>
+                <div class="price">
+                  <p>740 <span>MT</span></p>
+                  <span class="mais">+</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="bigCards" data-category="bebidas">
+                <div class="card-img">
+                  <img src="assets/img/bebidas.svg" alt="">
+                </div>
+                <h3>Água Tônica. </h3>
+                <div class="price">
+                  <p>740 <span>MT</span></p>
+                  <span class="mais">+</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="bigCards" data-category="bebidas">
+                <div class="card-img">
+                  <img src="assets/img/bebidas.svg" alt="">
+                </div>
+                <h3>Água Tônica. </h3>
                 <div class="price">
                   <p>740 <span>MT</span></p>
                   <span class="mais">+</span>
@@ -163,8 +274,6 @@
           <div class="tabs">
             <img src="assets/img/Card 4.svg" alt="">
             <div class="titlecat order">
-              <h4>Order Menu</h4>
-              <div style="color: #FB9400;">View All<span class="view">›</span></div>
             </div>
             <div class="produtsLocked">
               <div>
